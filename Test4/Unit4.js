@@ -21,7 +21,9 @@ class Animal {
         return  str;
     }
 }
-let objAnimal= new Animal("Elephant",45.6);
+let objAnimal= new Animal();
+objAnimal.setName="Elephant"
+objAnimal.setWeight=45.6
 objAnimal.toString()
 let objAbimal2=new  Animal("Butterfly",0.5);
 objAnimal.setName="Mouse";
