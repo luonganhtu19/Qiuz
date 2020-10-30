@@ -4,9 +4,9 @@ function firstDegreeEquation(a,b) {
     let x=0;
     if(a==0){
         if (b==0){
-            mess="Phuong trinh vo so nghiem"
+            mess="Phuong trinh vo so nghiem";
         }else {
-            mess="Phuong trinh vo nghiem"
+            mess="Phuong trinh vo nghiem";
         }
     }else {
         x=-b/a;
@@ -14,4 +14,5 @@ function firstDegreeEquation(a,b) {
     }
 	return mess;
 }
-let a1=firstDegreeEquation(0,1)
+let a1=firstDegreeEquation(1,1)
+console.log(a1)

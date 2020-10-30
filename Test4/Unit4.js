@@ -25,6 +25,7 @@ let objAnimal= new Animal();
 objAnimal.setName="Elephant"
 objAnimal.setWeight=45.6
 objAnimal.toString()
+console.log(objAnimal)
 let objAbimal2=new  Animal("Butterfly",0.5);
-objAnimal.setName="Mouse";
+objAbimal2.setName="Mouse";
 console.log(objAbimal2.toString())
